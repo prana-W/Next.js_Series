@@ -1,9 +1,12 @@
-## This contains the notes from 01-
+## This contains the notes from 01-13
 
 ## Important Concepts
 
 - Pages are route-specific UI components.
 - Layout is UI that is shared across multiple pages.
+
+- To make a page, we use page.tsx or page.jsx file.
+- To make a layout, we use layout.tsx or layout.jsx file.
 
 ### RSC
 
