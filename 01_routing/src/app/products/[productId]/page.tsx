@@ -1,3 +1,4 @@
+import {notFound} from 'next/navigation'
 export default async function ProductDetails({params}: {
     params: Promise<{
         productId: string
@@ -5,6 +6,9 @@ export default async function ProductDetails({params}: {
     }>
 }) {
     const productId = (await params).productId;
+    if (parseInt(productId) > 1000) {
+        notFound() // this will redirect to the local not-found page
+    }
     return (
         <div>
             <h1>Product Details</h1>
