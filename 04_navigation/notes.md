@@ -23,3 +23,7 @@
 *NOTE:* 
 - `page.tsx` has access to both params and searchParams, but `layout.tsx` only has access to params.
 
+## Navigating Programmatically
+- See `app/order-product/page.tsx` and `app/products/[productId]/review/[reviewId]/page.tsx`
+- useRouter can be used to navigate programmatically for client-side rendered pages.
+- redirect can be used to navigate programmatically for server-side rendered pages.

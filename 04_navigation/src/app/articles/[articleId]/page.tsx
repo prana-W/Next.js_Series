@@ -8,8 +8,8 @@ export default async function NewsArticlePage({params, searchParams} : {
 
     const  {articleId} = await params;
     const {lang = "en"} = await searchParams;
-
     return (
+
         <div>
             <h1>News Article {articleId}</h1>
             <p>Reading in {lang}</p>

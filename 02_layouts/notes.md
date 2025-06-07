@@ -15,7 +15,7 @@
 
 ### Nested Layouts
 
-- See products folder. Here productId folder's layout is nested.
+- See `products` folder. Here productId folder's layout is nested.
 
 
 ### Multiple Root Layouts
